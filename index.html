@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Responsive Navbar</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <div class="logo">PHOTOSEC</div>
+      <div class="menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- hero section -->
+    <section class="hero" id="hero">
+      <div class="hero_image">
+        <img src="./image/slider-img.jpg" alt="hero image">
+      </div>
+      <div class="hero_content">
+        <h1>photography studio</h1>
+        <button type="button">read more</button>
+      </div>
+    </section>
+    <!-- about us -->
+    <section class="about_us">
+      <div class="about_us_image">
+        <img src="./image/about-img.jpg" alt="about us img">
+      </div>
+      <div class="about_us_content">
+        <h2>about us</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout. The point of using LoremIt is a long established fact that a reader will bedistracted by the
+          readable content of a page when looking at its layout. The point of using Lorem</p>
+        <div class="about_us_button">
+          <button type="button" class="read_more_button">read more</button>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio -->
+    <section class="portfolio_section">
+      <div class="portfolio_content">
+        <h2>portfolio</h2>
+      </div>
+      <div class="portfolio_images">
+        <div class="portfolio_images_container1">
+          <div class="portfolio_image1">
+            <img src="./image/p1.jpg" alt="">
+          </div>
+          <div class="portfolio_image2">
+            <img src="./image/p2.jpg" alt="">
+          </div>
+        </div>
+        <div class="portfolio_images_container2">
+          <div class="portfolio_image3">
+            <img src="./image/p3.jpg" alt="">
+          </div>
+        </div>
+        <div class="portfolio_images_container3">
+          <div class="portfolio_image4">
+            <img src="./image/p4.jpg" alt="">
+          </div>
+          <div class="portfolio_image5">
+            <img src="./image/p5.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="portfolio_button">
+        <button type="button">see more</button>
+      </div>
+    </section>
+    <!-- our creative team -->
+    <section class="our_team_section">
+      <div class="our_team_content">
+        <div class="our_team_text">
+          <h2>our creative team</h2>
+          <p>The point of using LoremIt is a long established fact that a reader will be distracted by the
+            readablecontent of a page when looking at its layout. The point of using Lorem</p>
+        </div>
+        <div class="our_team_images">
+          <div class="our_team_image1">
+            <img src="./image/team1.jpg" alt="">
+          </div>
+          <div class="our_team_image2">
+            <img src="./image/team2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="our_team_image3">
+        <img src="./image/team3.jpg" alt="">
+      </div>
+    </section>
+    <!-- iframe section -->
+    <section class="iframe_section">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.366292394073!2d77.5945623146347!3d12.971598990892312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670f3b1d0e5%3A0x6b9e3b3e4b1f8b1d!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1615793660003!5m2!1sen!2sin"
+        allowfullscreen="" loading="lazy"></iframe>
+      <!-- GET IN TOUCH SECTION -->
+      <div class="get_in_section">
+        <div class="get_in_touch_text">
+          <h2>get in touch</h2>
+          <ul>
+            <li><a
+                href="www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.366292394073!2d77.5945623146347!3d12.971598990892312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670f3b1d0e5%3A0x6b9e3b3e4b1f8b1d!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1615793660003!5m2!1sen!2sin"><i
+                  class="fa-solid fa-location-dot"></i>location</a></li>
+            <li><a href="tel:+12345678910"><i class="fa-solid fa-phone"></i>call +12345678910</a></li>
+            <li><a href="mailto:demo@mail.com"><i class="fa-solid fa-envelope"></i>mail@domain.com</a></li>
+          </ul>
+        </div>
+        <div class="icon">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="footer">
+      <div class="footer_containt">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">portfolio</a></li>
+          <li><a href="#">team</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 all right reserrved. by html design</p>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
